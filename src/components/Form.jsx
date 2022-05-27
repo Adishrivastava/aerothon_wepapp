@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
-// import Select from 'react-select';
-// react component with a form with 2 select fields and a button
 
 const options = {
 	'react-django':
@@ -11,13 +8,13 @@ const options = {
 	'react-spring': '',
 	'react-laravel': '',
 	'react-nodejs': '',
-	'Angular-django':
+	'angular-django':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/django_angular.zip?alt=media&token=a2172156-d039-4e2c-9c5a-2aaea0cca7cc',
-	'Angular-flask':
+	'angular-flask':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/flask_angular.zip?alt=media&token=dcce982f-4b30-4139-a55c-c03c98762a04',
-	'Angular-spring': '',
-	'Angular-laravel': '',
-	'Angular-nodejs': '',
+	'angular-spring': '',
+	'angular-laravel': '',
+	'angular-nodejs': '',
 	'vue-django':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/django_vue.zip?alt=media&token=d67b9674-d17b-4010-ae92-5f9ddfee1010',
 	'vue-flask':
@@ -66,7 +63,7 @@ const Form = (props) => {
 		<div className="form">
 			<form onSubmit={handleSubmit}>
 				<div className="form-group">
-					<label htmlFor="frontend">Frontend</label>
+					<label htmlFor="frontend">Select Frontend</label>
 					<div className="group">
 						{frontendOptions.map((item) => (
 							<button
@@ -82,7 +79,7 @@ const Form = (props) => {
 					</div>
 				</div>
 				<div className="form-group">
-					<label htmlFor="backend">Backend</label>
+					<label htmlFor="backend">Select Backend</label>
 					<div className="group">
 						{backendOptions.map((item) => (
 							<button

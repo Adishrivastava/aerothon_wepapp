@@ -7,7 +7,7 @@ const Homepage = (props) => {
 		<div id="homepage">
 			<div className="main-section">
 				<h1 className="heading1">
-					Get Boiler-plate code <span>quicky</span>
+					Get Boiler-plate code, <span>quickly!</span>
 				</h1>
 				<h3 className="heading2">How do you want to get it?</h3>
 				<div className="container">

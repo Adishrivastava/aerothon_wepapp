@@ -1,9 +1,16 @@
 import React from 'react';
+import image from '../assets/icons8-naira-96.png';
 
 const Navbar = (props) => {
+	// const navigate = useNavigate();
 	return (
-		<div className="navbar">
-			<span className="title">NHP</span>
+		<div className="navbar" onClick={console.log('hello')}>
+			<a href="/">
+				<div className="title">
+					<img src={image} alt="N" />
+					{/* NHP */}
+				</div>
+			</a>
 		</div>
 	);
 };

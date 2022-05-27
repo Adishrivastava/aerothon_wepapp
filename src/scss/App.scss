@@ -41,6 +41,10 @@ body {
 		font-weight: 500;
 		color: $text-color;
 		text-shadow: 0px 0px 10px rgb(0, 0, 0);
+		img {
+			width: 60px;
+			height: 60px;
+		}
 	}
 }
 
@@ -77,13 +81,14 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .instuctions {
 	width: auto;
-	p {
-		text-align: left !important;
-	}
+	// p {
+	// 	text-align: left !important;
+	// }
 }
 
 h1 {
@@ -118,6 +123,8 @@ h1 {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .options {
@@ -145,10 +152,10 @@ h1 {
 label {
 	display: block;
 	margin-bottom: 10px;
-	font-size: larger;
+	font-size: large;
 	color: #ccc;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .form {
@@ -239,4 +246,22 @@ p {
 	font-size: 1.1rem;
 	font-weight: 500 !important;
 	border-radius: 50% !important;
+}
+
+@media screen and (max-width: 800px) {
+	.main-section {
+		width: 90%;
+	}
+	.form {
+		width: 90%;
+	}
+	.navbar {
+		.title {
+			padding: 5px 20px;
+			font-size: 3rem;
+			font-weight: 500;
+			color: $text-color;
+			text-shadow: 0px 0px 10px rgb(0, 0, 0);
+		}
+	}
 }
