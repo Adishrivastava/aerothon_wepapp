@@ -3,7 +3,7 @@ import './scss/App.css';
 import Homepage from './components/Homepage';
 import Download from './components/Download';
 import CLI from './components/CLI';
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 
 function App() {
 	return (
