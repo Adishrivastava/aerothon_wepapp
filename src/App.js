@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './scss/App.css';
 import Homepage from './components/Homepage';
 import Download from './components/Download';
-import Navbar from './components/Navbar';
 import CLI from './components/CLI';
+import Navbar from './components/navbar';
 
 function App() {
 	return (
