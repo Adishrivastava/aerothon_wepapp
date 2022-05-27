@@ -1,242 +1,252 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 .App {
-  min-height: 100vh;
+	min-height: 100vh;
 }
 
 a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 body {
-  background-image: linear-gradient(rgb(34, 34, 34), rgb(0, 0, 0));
-  font-family: "Source Sans Pro", sans-serif !important;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+	background-image: linear-gradient(rgb(34, 34, 34), rgb(0, 0, 0));
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 .navbar {
-  width: 100%;
-  height: 6vh;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
+	width: 100%;
+	height: 6vh;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
 }
 .navbar .title {
-  padding: 10px 50px;
-  font-size: 3rem;
-  font-weight: 500;
-  color: rgb(215, 215, 215);
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+	padding: 10px 50px;
+	font-size: 3rem;
+	font-weight: 600;
+	color: rgb(159, 199, 120);
+	font-family: 'Dancing Script', cursive;
 }
 .navbar .title img {
-  width: 60px;
-  height: 60px;
+	width: 60px;
+	height: 60px;
 }
 
 .heading1 {
-  font-size: 4.5rem;
-  line-height: 5rem;
-  font-weight: 700;
-  color: rgb(215, 215, 215);
-  margin-bottom: 4rem;
+	font-size: 4.5rem;
+	line-height: 5rem;
+	font-weight: 700;
+	color: rgb(215, 215, 215);
+	margin-bottom: 4rem;
 }
 .heading1 span {
-  background: -webkit-linear-gradient(rgb(204, 241, 211), rgb(61, 141, 165), rgb(31, 84, 110));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(
+		rgb(204, 241, 211),
+		rgb(61, 141, 165),
+		rgb(31, 84, 110)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .heading2 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: rgb(159, 170, 174);
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+	font-size: 1rem;
+	font-weight: 500;
+	color: rgb(159, 170, 174);
+	text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .main-section {
-  width: 50%;
+	width: 50%;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .instuctions {
-  width: auto;
+	width: auto;
 }
 
 h1 {
-  margin: 0;
+	margin: 0;
 }
 h1 span {
-  background: -webkit-linear-gradient(rgb(204, 241, 211), rgb(61, 141, 165), rgb(31, 84, 110));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(
+		rgb(204, 241, 211),
+		rgb(61, 141, 165),
+		rgb(31, 84, 110)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #title {
-  font-size: 4rem;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: rgb(215, 215, 215);
-  font-family: "Aref Ruqaa", serif;
-  color: rgb(172, 204, 168);
+	font-size: 4rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: rgb(215, 215, 215);
+	font-family: 'Aref Ruqaa', serif;
+	color: rgb(172, 204, 168);
 }
 
 .form-group {
-  margin-top: 6vh;
+	margin-top: 6vh;
 }
 
 .group {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .options {
-  padding: 1rem 1.5rem;
-  margin-right: 1rem;
-  background-color: rgb(39, 37, 37);
-  color: antiquewhite !important;
+	padding: 1rem 1.5rem;
+	margin-right: 1rem;
+	background-color: rgb(39, 37, 37);
+	color: antiquewhite !important;
 }
 
 .selected {
-  background-color: rgb(64, 151, 232);
-  color: rgb(36, 35, 34) !important;
+	background-color: rgb(64, 151, 232);
+	color: rgb(36, 35, 34) !important;
 }
 
 #homepage {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(215, 215, 215);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(215, 215, 215);
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: large;
-  color: #ccc;
-  text-transform: uppercase;
-  font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+	font-size: large;
+	color: #ccc;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .form {
-  width: 60%;
-  margin: 0 auto;
+	width: 60%;
+	margin: 0 auto;
 }
 
 select,
 option {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 2rem;
-  color: #000;
-  font-size: 16px;
-  padding: 0.7rem 1rem;
-  width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2rem;
+	color: #000;
+	font-size: 16px;
+	padding: 0.7rem 1rem;
+	width: 100%;
 }
 select:focus,
 option:focus {
-  outline: none;
+	outline: none;
 }
 
 .select {
-  min-width: 3rem !important;
+	min-width: 3rem !important;
 }
 
 option {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 0.8em !important;
-  color: #000;
-  font-size: 16px;
-  padding: 0.5rem;
-  width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0.8em !important;
+	color: #000;
+	font-size: 16px;
+	padding: 0.5rem;
+	width: 100%;
 }
 option:focus {
-  outline: none;
+	outline: none;
 }
 
 button {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid #ccc;
-  font-weight: bold;
-  border-radius: 3em;
-  color: rgb(25, 25, 25);
-  font-size: 1rem;
-  padding: 1.7rem 3rem;
-  outline: none;
-  border: none;
-  width: auto;
-  color: rgb(35, 35, 35) !important;
-  font-family: "Source Sans Pro", sans-serif !important;
-  margin-top: 1rem;
-  cursor: pointer;
-  text-transform: uppercase;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #ccc;
+	font-weight: bold;
+	border-radius: 3em;
+	color: rgb(25, 25, 25);
+	font-size: 1rem;
+	padding: 1.7rem 3rem;
+	outline: none;
+	border: none;
+	width: auto;
+	color: rgb(35, 35, 35) !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	margin-top: 1rem;
+	cursor: pointer;
+	text-transform: uppercase;
 }
 button:focus {
-  outline: none;
+	outline: none;
 }
 
 p {
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 .cols {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .home {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .form-group {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .basic-single {
-  width: 10rem !important;
-  color: #000;
-  font-size: 1.1rem;
-  font-weight: 500 !important;
-  border-radius: 50% !important;
+	width: 10rem !important;
+	color: #000;
+	font-size: 1.1rem;
+	font-weight: 500 !important;
+	border-radius: 50% !important;
 }
 
 @media screen and (max-width: 800px) {
-  .main-section {
-    width: 90%;
-  }
+	.main-section {
+		width: 90%;
+	}
 
-  .form {
-    width: 90%;
-  }
+	.form {
+		width: 90%;
+	}
 
-  .navbar .title {
-    padding: 5px 20px;
-    font-size: 3rem;
-    font-weight: 500;
-    color: rgb(215, 215, 215);
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
-  }
-}/*# sourceMappingURL=App.css.map */
+	.navbar .title {
+		padding: 5px 20px;
+		font-size: 3rem;
+		font-weight: 500;
+		color: rgb(215, 215, 215);
+		text-shadow: 0px 0px 10px rgb(0, 0, 0);
+	}
+} /*# sourceMappingURL=App.css.map */

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 $background-color: #03251f;
 $text-color: rgb(215, 215, 215);
@@ -38,9 +40,10 @@ body {
 	.title {
 		padding: 10px 50px;
 		font-size: 3rem;
-		font-weight: 500;
-		color: $text-color;
-		text-shadow: 0px 0px 10px rgb(0, 0, 0);
+		font-weight: 600;
+		color: rgb(159, 199, 120);
+		// text-shadow: 0px 0px 10px rgb(0, 0, 0);
+		font-family: 'Dancing Script', cursive;
 		img {
 			width: 60px;
 			height: 60px;

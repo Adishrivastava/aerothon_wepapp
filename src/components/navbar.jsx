@@ -5,7 +5,7 @@ const Navbar = (props) => {
 	return (
 		<div className="navbar">
 			<a href="/">
-				<div className="title">NHP</div>
+				<div className="title">Nhp</div>
 			</a>
 		</div>
 	);
