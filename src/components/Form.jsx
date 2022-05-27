@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Navigate } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
 // import Select from 'react-select';
 // react component with a form with 2 select fields and a button
