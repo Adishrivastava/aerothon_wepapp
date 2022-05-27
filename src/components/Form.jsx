@@ -5,21 +5,24 @@ const options = {
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/django_react.zip?alt=media&token=8eac7374-fa59-42af-9d5b-54e2dfbbc497',
 	'react-flask':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/flask_react.zip?alt=media&token=59969a3e-fbb6-4b88-9565-e5dc9ec13055',
-	'react-spring': '',
+	'react-spring':
+		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/react-springjava-main.zip?alt=media&token=d96510e4-3ad4-4bdb-9547-b42b3105e101',
 	'react-laravel': '',
 	'react-nodejs': '',
 	'angular-django':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/django_angular.zip?alt=media&token=a2172156-d039-4e2c-9c5a-2aaea0cca7cc',
 	'angular-flask':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/flask_angular.zip?alt=media&token=dcce982f-4b30-4139-a55c-c03c98762a04',
-	'angular-spring': '',
+	'angular-spring':
+		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/Angular_SpringJava-main.zip?alt=media&token=0d04cda8-8d14-4af0-bc1c-fd3595d3fc59',
 	'angular-laravel': '',
 	'angular-nodejs': '',
 	'vue-django':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/django_vue.zip?alt=media&token=d67b9674-d17b-4010-ae92-5f9ddfee1010',
 	'vue-flask':
 		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/flask_vue.zip?alt=media&token=910123f2-58ad-4638-9f85-d5989dc6ecd5',
-	'vue-spring': '',
+	'vue-spring':
+		'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/Vue_SpringJava-main.zip?alt=media&token=57e84748-7bff-489d-965e-aa92b819cf45',
 	'vue-laravel': '',
 	'vue-nodejs': '',
 };
