@@ -16,7 +16,7 @@ const CLI = (props) => {
 						<button
 							onClick={() =>
 								(window.location.href =
-									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-macos?alt=media&token=a29f91b8-17ef-4c2e-8f13-5ba36dc50d4c')
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon2.appspot.com/o/install-macos?alt=media&token=e3ad64a3-d361-4e77-9407-baabfbb09e3c')
 							}
 						>
 							Mac OS
@@ -26,7 +26,7 @@ const CLI = (props) => {
 						<button
 							onClick={() =>
 								(window.location.href =
-									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-win.exe?alt=media&token=bd6d9702-3f11-45bb-8242-263efae568a2')
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon2.appspot.com/o/install-win.exe?alt=media&token=868fbcd9-6f1d-4d36-97e1-8be525edab13')
 							}
 						>
 							Windows OS
@@ -36,7 +36,7 @@ const CLI = (props) => {
 						<button
 							onClick={() =>
 								(window.location.href =
-									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-linux?alt=media&token=d20a2223-f543-4944-989c-683816710486')
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon2.appspot.com/o/install-linux?alt=media&token=f96e68bb-a07d-4fa7-83b4-938cbf88cd3a')
 							}
 						>
 							Linux OS
