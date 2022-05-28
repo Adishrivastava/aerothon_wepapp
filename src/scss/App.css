@@ -200,7 +200,10 @@ button {
 	cursor: pointer;
 	text-transform: uppercase;
 }
-button:focus {
+button:focus,
+button:hover {
+	background-color: rgb(26, 26, 26);
+	color: #ccc !important;
 	outline: none;
 }
 

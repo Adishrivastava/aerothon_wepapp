@@ -3,12 +3,12 @@ import './scss/App.css';
 import Homepage from './components/Homepage';
 import Download from './components/Download';
 import CLI from './components/CLI';
-import Navbar from './components/navbar';
+import Nav from './components/Nav';
 
 function App() {
 	return (
 		<div className="App">
-			<Navbar />
+			<Nav />
 			<Router>
 				<Routes>
 					<Route path="" element={<Homepage />} />

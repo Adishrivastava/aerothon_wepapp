@@ -13,13 +13,34 @@ const CLI = (props) => {
 				</div>
 				<div className="container">
 					<div className="">
-						<button>Mac OS</button>
+						<button
+							onClick={() =>
+								(window.location.href =
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-macos?alt=media&token=a29f91b8-17ef-4c2e-8f13-5ba36dc50d4c')
+							}
+						>
+							Mac OS
+						</button>
 					</div>
 					<div className="">
-						<button>Windows</button>
+						<button
+							onClick={() =>
+								(window.location.href =
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-win.exe?alt=media&token=bd6d9702-3f11-45bb-8242-263efae568a2')
+							}
+						>
+							Windows OS
+						</button>
 					</div>
 					<div className="">
-						<button>Linux</button>
+						<button
+							onClick={() =>
+								(window.location.href =
+									'https://firebasestorage.googleapis.com/v0/b/nhpaerothon.appspot.com/o/install-linux?alt=media&token=d20a2223-f543-4944-989c-683816710486')
+							}
+						>
+							Linux OS
+						</button>
 					</div>
 				</div>
 			</div>

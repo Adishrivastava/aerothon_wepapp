@@ -213,7 +213,10 @@ button {
 	margin-top: 1rem;
 	cursor: pointer;
 	text-transform: uppercase;
-	&:focus {
+	&:focus,
+	&:hover {
+		background-color: rgb(26, 26, 26);
+		color: #ccc !important;
 		outline: none;
 	}
 }
